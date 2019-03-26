@@ -1,7 +1,7 @@
 import time
 import ttn
 
-app_id = "m"
+app_id = ""
 access_key = ""
 
 def uplink_callback(msg, client):
