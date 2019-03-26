@@ -19,5 +19,6 @@ handler = ttn.HandlerClient(app_id, access_key)
 mqtt_client = handler.data()
 mqtt_client.connect()
 mqtt_client.set_connect_callback(connect_callback)
+mqtt_client.set_uplink_callback(uplink_callback)
 
 mqtt_client.close()
