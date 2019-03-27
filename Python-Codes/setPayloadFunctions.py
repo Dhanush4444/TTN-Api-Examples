@@ -16,4 +16,4 @@ decoder_fn = """function Decoder(payload) {
 handler = ttn.HandlerClient(app_id, access_key)
 
 app_client =  handler.application()
-client.set_custom_payload_functions(decoder=decoder_fn)
+app_client.set_custom_payload_functions(decoder=decoder_fn)
