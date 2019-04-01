@@ -1,0 +1,14 @@
+{
+  "name": "javascript-codes",
+  "version": "1.0.0",
+  "description": "\"Javascript codes for ttn\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhanush",
+  "license": "ISC",
+  "dependencies": {
+    "ttn": "^2.3.2"
+  }
+}
